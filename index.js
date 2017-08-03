@@ -22,9 +22,6 @@ app.use(function (req, res, next) {
     // Pass to next layer of middleware
     next();
 });
-
-// app.get('/', (req, res) => {
-//   res.static('./public/DBM_vast.xml');
-// });
-
-app.listen(3000);
+  
+var port = process.env.PORT || 3000;
+app.listen(port);
