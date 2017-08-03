@@ -2,9 +2,9 @@ const express = require('express');
 var app = express();
 
 // Add headers
-app.use(express.static('public'), {
+app.use(express.static('public', {
   etag: false
-});
+}));
 
 app.use(function (req, res, next) {
 
