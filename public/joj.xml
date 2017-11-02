@@ -1,0 +1,33 @@
+<VAST version="2.0">
+<Ad id="Meetrics">
+<InLine>
+<AdSystem version="1.0">PlayTime</AdSystem>
+<AdTitle>meetricswrapperv9-requiresVpaidJavaScript</AdTitle>
+<Impression id="meetrics">about:blank</Impression>
+<Creatives>
+<Creative id="meetricswrapper">
+<Linear>
+<Duration>00:00:30</Duration>
+<AdParameters>
+<![CDATA[
+{"mtrcsData":{"mtrcsCollectorDomain":"302288","mtrcsProjectID":"s79.research.de.com","mtrcsCampaign":"59507","mtrcsPlacement":"[PID]","mtrcsZone":"[GID]","mtrcsSite":"","mtrcsCreative":"[CID]","adDuration":"30","mtrcsWidth":"1127","mtrcsHeight":"749","meetricsVolume":"-1","mtrcsShowPause":"false","meetricsProxy":"https://tag.brainient.com/vast/5649710028161024","meetricsDebug":"","meetricsMuteButton":"false","meetricsFullscreenButton":"false","meetricsPlayButton":"false","meetricsShowSkipAfter":"","meetricsCountdown":"false","meetricsLanguage":"EN","meetricsTimeout":"3000","meetricsPreferedMedia":"mp4","meetricsWaitStartAd":"true","mtrcsAdvertiser":"","mtrcsParameterA":"","mtrcsParameterB":"","mtrcsParameterC":"","mtrcsParameterD":"","mtrcsParameterE":""}}
+]]>
+</AdParameters>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ ]]>
+</ClickThrough>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" apiFramework="VPAID" width="640" height="360" type="application/javascript">
+<![CDATA[
+https://s418.mxcdn.net/bb-serve/vpaid_js/VPAID-JS.js
+]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
