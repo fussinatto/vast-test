@@ -3,7 +3,9 @@ var app = express();
 
 // Add headers
 app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
+    // res.header("Access-Control-Allow-Origin", "https://developer.jwplayer.com");
+    // res.header("Access-Control-Allow-Origin", "http://s418.mxcdn.net");
+    // res.header('Access-Control-Allow-Credentials', true);
 
     next();
 });
