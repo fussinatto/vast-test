@@ -1,6 +1,7 @@
 const express = require('express');
+const cors = require('cors');
+
 var app = express();
-var cors = cors();
 
 // Add headers
 app.use(cors());
