@@ -1,14 +1,9 @@
 const express = require('express');
 var app = express();
+var cors = cors();
 
 // Add headers
-app.use(function (req, res, next) {
-    // res.header("Access-Control-Allow-Origin", "https://developer.jwplayer.com");
-    res.header("Access-Control-Allow-Origin", "http://wigo.teads.tv");
-    // res.header('Access-Control-Allow-Credentials', true);
-
-    next();
-});
+app.use(cors());
 
 // Serve static files
 app.use(express.static('public', {
